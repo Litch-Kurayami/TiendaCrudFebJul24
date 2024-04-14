@@ -15,6 +15,7 @@ class CreateFormaspagoTable extends Migration
     {
         Schema::create('formaspago', function (Blueprint $table) {
             $table->id();
+            $table->string('nombre');
             $table->timestamps();
         });
     }
